@@ -9,7 +9,7 @@ using Android.Graphics;
 using Xamarin.Forms;
 using System;
 
-[assembly: Xamarin.Forms.ExportRenderer(typeof(CalendarButton), typeof(CalendarButtonRenderer))]
+[assembly: Xamarin.Forms.ExportRenderer(typeof(XamForms.Controls.CalendarButton), typeof(CalendarButtonRenderer))]
 namespace XamForms.Controls.Droid
 {
 	[Preserve(AllMembers = true)]
