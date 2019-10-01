@@ -22,6 +22,9 @@ namespace XamForms.Controls.iOS
         {
             base.OnElementPropertyChanged(sender, e);
             var element = Element as CalendarButton;
+            if (Element == null || Control == null) 
+                return;
+
             if (e.PropertyName == nameof(element.TextWithoutMeasure) || e.PropertyName == "Renderer")
             {
                 Control.SetTitle(element.TextWithoutMeasure, UIControlState.Normal);
