@@ -2,4 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/XamForms.Controls.Calendar
+/.vs/
+/packages
+**/bin/*
+**/obj/*
+**/*.csproj.user
